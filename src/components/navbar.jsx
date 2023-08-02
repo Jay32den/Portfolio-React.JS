@@ -1,10 +1,10 @@
 import React, {useState} from 'react';
 import {FaBars, FaTimes, FaGithub, FaLinkedin, FaInstagram} from 'react-icons/fa';
-import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/Logo.png' ;
 import { Link } from 'react-scroll';
 import Resume from '../resumeFile/JaydenSiskResume.pdf';
+
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -34,27 +34,27 @@ const Navbar = () => {
       <div>
         <ul className='hidden md:flex'>
           <li>
-            <Link to="home" smooth={true} duration={500}>
+            <Link to="home" smooth={true} duration={500} className='hover:bg-blue-600 hover:border-blue-600 rounded py-2 px-4 text-white '>
           Home
         </Link>
         </li>
         <li>
-            <Link to="about" smooth={true} duration={500}>
+            <Link to="about" smooth={true} duration={500} className='hover:bg-blue-600 hover:border-blue-600 rounded py-2 px-4 text-white '>
           About
         </Link>
         </li>
         <li>
-            <Link to="skills" smooth={true} duration={500}>
+            <Link to="skills" smooth={true} duration={500} className='hover:bg-blue-600 hover:border-blue-600 rounded py-2 px-4 text-white '>
           Skills
         </Link>
         </li>
         <li>
-            <Link to="work" smooth={true} duration={500}>
+            <Link to="work" smooth={true} duration={500} className='hover:bg-blue-600 hover:border-blue-600 rounded py-2 px-4 text-white '>
           Work
         </Link>
         </li>
         <li>
-            <Link to="contact" smooth={true} duration={500}>
+            <Link to="contact" smooth={true} duration={500} className='hover:bg-blue-600 hover:border-blue-600 rounded py-2 px-4 text-white '>
           Contact
         </Link>
         </li>

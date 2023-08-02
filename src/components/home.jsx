@@ -14,15 +14,10 @@ const Home = () => {
         <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>
           I'm a Software Developer.
         </h2>
-        <p className='text-[#8892b0] py-4 max-w-[700px]'>
-        My goal is to develop a dynamic and interactive web
-application by utilizing the power of Node.js, JavaScript, HTML,
-CSS, and SQL. This goal encompasses the use of these
-technologies to create a robust and efficient application that
-meets the needs of users and delivers a seamless user
-experience. My passion is in troubleshooting, debugging, and
-analyzing website issues, and I am known for my ability to
-provide innovative ideas and best practices.
+        <p className='text-[#b4c0e4] text-lg py-4 max-w-[700px]'>
+        Im a front-end developer with a passionate in crafting immersive digital experiences. 
+        I specialize in transforming innovative designs into responsive and user-friendly websites 
+        that leave a lasting impact on users.
         </p>
         <div>
           <Link to="work" smooth={true} duration={500}>

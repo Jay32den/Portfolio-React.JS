@@ -6,7 +6,7 @@ const About = () => {
         <div className='flex flex-col justify-center items-center w-full h-full'>
           <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
             <div className='sm:text-right pb-8 pl-4'>
-              <p className='text-4xl font-bold inline border-b-4 border-yellow-600'>
+              <p className='text-5xl font-bold inline border-b-4 border-yellow-600'>
                 About
               </p>
             </div>
@@ -17,7 +17,7 @@ const About = () => {
                 <p>I'm Jayden Sisk, nice to meet you. Please take a look around.</p>
               </div>
               <div>
-                <p>My goal is to develop a dynamic and interactive web
+                <p className='text-[#b4c0e4] text-lg/7  py-4 max-w-[700px]'>My goal is to develop a dynamic and interactive web
 application by utilizing the power of Node.js, JavaScript, HTML,
 CSS, and SQL. This goal encompasses the use of these
 technologies to create a robust and efficient application that
