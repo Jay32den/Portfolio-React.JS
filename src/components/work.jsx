@@ -31,9 +31,10 @@ const Work = () => {
                     Miniature Skateboard Obstacles
                 </p>
                 <br/><br/>
+                        <a href='https://skateboard-obsticle-website.vercel.app/'>
                         <button className="text-center rounded-lg px-6 py-5 m-3
                        bg-white text-gray-700 font-bold text-lg">Demo</button>
-                               
+                               </a>
                             <a href='https://github.com/Jay32den/Skateboard-Obsticle-Website'>
                                 <button className="text-center rounded-lg px-6 py-5 m-3
                        bg-white text-gray-700 font-bold text-lg">Code</button>
@@ -52,9 +53,10 @@ const Work = () => {
                     Google Clone
                 </p>
                 <br/><br/>
+                            <a href='https://google-clone-edwdeovui-jay32den.vercel.app/'>
                                 <button className="text-center rounded-lg px-6 py-5 m-3
                        bg-white text-gray-700 font-bold text-lg">Demo</button>
-                            
+                            </a>
                             <a href='https://github.com/Jay32den/Google-clone'>
                                 <button className="text-center rounded-lg px-6 py-5 m-3
                        bg-white text-gray-700 font-bold text-lg">Code</button>
