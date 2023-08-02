@@ -15,7 +15,7 @@ const Home = () => {
           I'm a Software Developer.
         </h2>
         <p className='text-[#b4c0e4] text-lg py-4 max-w-[700px]'>
-        I'm a front-end developer with a passion in crafting immersive digital experiences. 
+        I'm a front-end developer with a passion for crafting immersive digital experiences. 
         I specialize in transforming innovative designs into responsive and user-friendly websites 
         that leave a lasting impact on users.
         </p>
