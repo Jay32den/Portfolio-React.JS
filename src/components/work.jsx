@@ -1,8 +1,12 @@
-import React from 'react';
+import React, {useState} from 'react';
 import ShoppingSite from '../assets/MattfbHome.png';
 import GoogleClone from '../assets/GoogleHome.png';
+import ToDoList from '../assets/To-Do-List.png';
 
 const Work = () => {
+    const [nav, setNav] = useState(false);
+    const handleClick = () => setNav(!nav);
+
   return (
     <div name='work' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
@@ -42,6 +46,8 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
+
+                
                 <div style={{backgroundImage : `url(${GoogleClone})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div'>
                     {/* Hover effect for images */}
                     <div className="opacity-0 group-hover:opacity-100">
@@ -53,7 +59,7 @@ const Work = () => {
                     Google Clone
                 </p>
                 <br/><br/>
-                            <a href='https://google-clone-edwdeovui-jay32den.vercel.app/'>
+                            <a href='https://google-clone-azure-tau.vercel.app/'>
                                 <button className="text-center rounded-lg px-6 py-5 m-3
                        bg-white text-gray-700 font-bold text-lg">Demo</button>
                             </a>
@@ -61,9 +67,12 @@ const Work = () => {
                                 <button className="text-center rounded-lg px-6 py-5 m-3
                        bg-white text-gray-700 font-bold text-lg">Code</button>
                             </a>
+                            <button className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}> test</button>
                         </div>
                     </div>
                 </div>
+                
+
             </div>
         </div>
     </div>
