@@ -2,6 +2,8 @@ import React, {useState} from 'react';
 import ShoppingSite from '../assets/MattfbHome.png';
 import GoogleClone from '../assets/GoogleHome.png';
 import ToDoList from '../assets/To-Do-List.png';
+import Portfolio from '../assets/Portfolio.png';
+import ChatApp from '../assets/ChatApp.png';
 
 const Work = () => {
     const [nav, setNav] = useState(false);
@@ -32,7 +34,7 @@ const Work = () => {
                         
                         <div className='pt-8 text-center'>
                         <p className='text-2xl font-bold'>
-                    Miniature Skateboard Obstacles
+                    Miniature Skateboard Obsticles
                 </p>
                 <br/><br/>
                         <a href='https://skateboard-obsticle-website.vercel.app/'>
@@ -71,7 +73,30 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
+
+
+                <div style={{backgroundImage : `url(${Portfolio})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div'>
+                    {/* Hover effect for images */}
+                    <div className="opacity-0 group-hover:opacity-100">
+                        <span className='text-2xl font-bold text-white tracking-wider'>
+
+                        </span>
+                        <div className='pt-8 text-center'>
+                        <p className='text-2xl font-bold'>
+                    Portfolio
+                </p>
+                <br/><br/>
+                            <a href='https://github.com/Jay32den/Portfolio-React.JS'>
+                                <button className="text-center rounded-lg px-6 py-5 m-3
+                       bg-white text-gray-700 font-bold text-lg">Code</button>
+                            </a>
+                            <button className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}> test</button>
+                        </div>
+                    </div>
+                </div>
                 
+
+
                 <div style={{backgroundImage : `url(${ToDoList})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div'>
                     {/* Hover effect for images */}
                     <div className="opacity-0 group-hover:opacity-100">
@@ -88,6 +113,31 @@ const Work = () => {
                        bg-white text-gray-700 font-bold text-lg">Demo</button>
                             </a>
                             <a href='https://github.com/Jay32den/game-3'>
+                                <button className="text-center rounded-lg px-6 py-5 m-3
+                       bg-white text-gray-700 font-bold text-lg">Code</button>
+                            </a>
+                            <button className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}> test</button>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <div style={{backgroundImage : `url(${ChatApp})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div'>
+                    {/* Hover effect for images */}
+                    <div className="opacity-0 group-hover:opacity-100">
+                        <span className='text-2xl font-bold text-white tracking-wider'>
+
+                        </span>
+                        <div className='pt-8 text-center'>
+                        <p className='text-2xl font-bold'>
+                    Chat Room
+                </p>
+                <br/><br/>
+                            <a href='https://chatroom-lovat-psi.vercel.app/'>
+                                <button className="text-center rounded-lg px-6 py-5 m-3
+                       bg-white text-gray-700 font-bold text-lg">Demo</button>
+                            </a>
+                            <a href='https://github.com/Jay32den/chatroom'>
                                 <button className="text-center rounded-lg px-6 py-5 m-3
                        bg-white text-gray-700 font-bold text-lg">Code</button>
                             </a>
