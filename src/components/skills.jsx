@@ -8,6 +8,7 @@ import Node from '../assets/node.png';
 import SQL from '../assets/sql.png';
 import Tailwind from '../assets/tailwind.png';
 import Mongo from '../assets/mongo.png';
+import WordPress from '../assets/wordpress.png';
 
 const Skills = () => {
     return (
@@ -52,8 +53,13 @@ const Skills = () => {
                     <img className='w-20 mx-auto' src={Tailwind} alt="Tailwind icon" />
                     <p className='my-4'>TAILWIND</p>
                 </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={WordPress} alt="Wordpress icon" />
+                    <p className='my-4'>WORDPRESS</p>
+                </div>
             </div>
         </div>
+        <div></div>
       </div>
     );
   };

@@ -3,7 +3,7 @@ import {FaBars, FaTimes, FaGithub, FaLinkedin, FaInstagram} from 'react-icons/fa
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/Logo.png' ;
 import { Link } from 'react-scroll';
-import Resume from '../resumeFile/JaydenSiskResume.pdf';
+import Resume from '../resumeFile/Jayden_Sisk_Resume.pdf';
 
 
 const Navbar = () => {
