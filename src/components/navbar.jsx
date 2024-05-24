@@ -3,7 +3,7 @@ import {FaBars, FaTimes, FaGithub, FaLinkedin, FaInstagram} from 'react-icons/fa
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/Logo.png' ;
 import { Link } from 'react-scroll';
-import Resume from '../resumeFile/Jayden_Sisk_Resume.pdf';
+import Resume from '../resumeFile/JaydenSiskResume2024.pdf';
 
 
 const Navbar = () => {
@@ -19,6 +19,7 @@ const Navbar = () => {
     aTag.click();
     aTag.remove();
   };
+
 
   
   return (
